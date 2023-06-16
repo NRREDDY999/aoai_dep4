@@ -4,7 +4,6 @@ A simple web application for a OpenAI-enabled document search. This repo uses Az
 
 
 ## Deploy on Azure (WebApp + Batch Processing) with Azure Cognitive Search
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FNRREDDY999%2Faoai_dep3%2Fmain%2Finfrastructure%2Fdeployment_ACS.json)
-
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FNRREDDY999%2Faoai_dep4%2Fmain%2Finfrastructure%2Fdeployment_ACS.json)
 
 
