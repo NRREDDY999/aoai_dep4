@@ -22,7 +22,6 @@ if 'source_documents' not in st.session_state:
 llm_helper = LLMHelper()
 
 # Chat 
-st.write('You selected C++.')
 st.text_input("You: ", placeholder="type your question", key="input", on_change=clear_text_input)
 clear_chat = st.button("Clear chat", key="clear_chat", on_click=clear_chat_data)
 

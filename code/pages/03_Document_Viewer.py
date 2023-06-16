@@ -24,8 +24,6 @@ try:
                 """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-    st.write('You selected C++.')
-
     llm_helper = LLMHelper()
 
     col1, col2, col3 = st.columns([2,1,1])
