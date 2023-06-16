@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  web:
+    image: rag/oai-embeddings
+    ports:
+      - "8080:80"
+    env_file:
+      - .env
+    depends_on:
+      api:
+        condition: service_healthy
+
+  batch:
+    image: rag/oai-batch:latest
+    ports: 
+      - "8081:80"
+    env_file:
+      - .env
+    depends_on:
+      api:
+        condition: service_healthy
